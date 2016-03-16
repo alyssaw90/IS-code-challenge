@@ -1,0 +1,97 @@
+#slide-menu {
+	background: $light-blue;
+	width: 100%;
+	height: 100%;
+	#welcome-tile{
+		height: 100px;
+		background-image: url('sky.jpeg');
+		background-size: 100%;
+		h3 {
+			margin-top: 0px;
+			color: white;
+			padding-left: 10px;
+			line-height: 50px;
+		}
+	}
+	.menu{
+		height: 50px;
+		border-bottom: 1px solid rgb(35, 104, 156);
+		-moz-box-shadow:0 1px 1px rgba(35, 104, 156, 0.5);
+     	-webkit-box-shadow: 0 1px 1px rgba(35, 104, 156, 0.5);
+    	box-shadow: 0 1px 1px rgba(35, 104, 156, 0.5);
+		h3 {
+			margin-top: 0px;
+			margin-bottom: 0px;
+			color: white;
+			padding-left: 10px;
+			line-height: 50px;
+		}
+		.arrow {
+			float: right;
+			background-color: #4A92C2;
+			height: 50px;	
+			width: 50px;	
+			.fa {
+    			color: white;
+    			line-height: 50px;
+    			text-align: center;	
+                padding-left: 21px;
+    		}
+		}
+	}
+}
+
+.submenu {
+	position:absolute;
+    right: 0px;
+    top: 81px;
+    bottom: 0px;
+    width: 330px;
+    background-color: $light-blue;
+    border-left: 1px white solid;
+    ul {
+    	list-style-type: none;
+    	padding-left: 0px;
+    	li {
+			height: 50px;
+			color: white;
+			border-bottom: 1px solid rgb(35, 104, 156);
+			-moz-box-shadow:0 1px 1px rgba(35, 104, 156, 0.5);
+     		-webkit-box-shadow: 0 1px 1px rgba(35, 104, 156, 0.5);
+    		box-shadow: 0 1px 1px rgba(35, 104, 156, 0.5);
+    		line-height: 50px;
+    		a {
+    			color: white;
+    			text-decoration: none;
+    		}
+    		.close{
+    			float: right;
+    			padding-right: 20px;
+    		}
+    		.fa {
+    			float: right;
+    			line-height: 50px;
+    			padding-right: 20px;
+    			color: white;	
+    		}
+    		
+    	}
+    	.active {
+    			background-color: #4A92C2;
+    		}
+    	.title:first-child {
+    		background-color: #4A92C2;
+    	}
+    }
+    .dropdown {
+    	display: none;
+    	li {
+    		padding-left: 20px;
+    		background-color: #70a9cf;
+    		border-bottom: 1px solid rgb(93, 158, 201);
+			-moz-box-shadow:0 1px 1px rgba(93, 158, 201, 0.5);
+     		-webkit-box-shadow: 0 1px 1px rgba(93, 158, 201, 0.5);
+    		box-shadow: 0 1px 1px rgba(93, 158, 201, 0.5);
+    	}
+    }
+}

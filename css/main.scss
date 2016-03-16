@@ -1,0 +1,15 @@
+@import 'partials/nav.scss';
+@import 'partials/slide.scss';
+
+$dark-blue: #01426a;
+$light-blue: #2774ae;
+html, body {
+	height: 100%
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'PT Sans Narrow', sans-serif;
+}
+
+
